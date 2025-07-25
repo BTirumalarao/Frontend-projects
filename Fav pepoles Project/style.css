@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    padding: 60PX;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content2{
+    flex-wrap: wrap;
+}
+.content3{
+    flex-wrap: wrap;
+}
+.msd{
+    background-color: red;
+}
