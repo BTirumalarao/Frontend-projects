@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rebeccapurple;
+}
+.content{
+    margin-top: 150px;
+    border: 1px solid red;
+    background-color: white;
+    border: none;
+    box-shadow: 20px;
+    height: 300px;
+    width: 400px;
+    padding: 100px;
+    text-align: center;
+    margin-left: 450px;
+}
+button{
+    background-color: aqua;
+    width: 200px;
+    height: 40px;
+    color:red;
+    font-size: 20px;
+}
