@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headers{
+    background-image: url(https://cdn.pixabay.com/photo/2021/06/27/08/45/coffee-6368105_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 660px;
+}
+header{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+ul{
+    align-items: right;
+    list-style: none;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+li{
+    cursor: pointer;
+    color: white;
+}
+.imges{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+/* mainpart */
+.mainpart{
+    height: 100vh;
+    margin-top: 40px;
+    color:rgb(234, 145, 11);
+}
+.offers{
+     text-align: center;          
+}
+#p1{
+    text-align: center;
+}
+.cups{
+    display: flex;
+    justify-content: space-around;
+}
+#cup1{
+   padding: 40px;
+}
+#cup2{
+    padding: 40px;
+}
+#cup3{
+    padding: 40px; 
+}
+#cup4{
+    align-items: start;
+    padding: 40px;
+}
+#names{
+   text-align: center;
+}
+.name{
+    background-color: antiquewhite;
+}
+.names{
+   align-items: center;
+}
+.realitvepics{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+#realitvepic1{
+    line-height: 30px;
+    margin-left: 100px;
+}
+#realitvepic2{
+    line-height: 30px;
+    column-gap: 20px;
+}
+#realitvepic3{
+    line-height: 30px;
+    margin-right: 100px;
+}
+.icon{
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/18/18/41/child-6028047_1280.jpg);
+    width: 100%;
+    height: 600px;
+    padding: 150px;
+    padding-left: 350px;
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.price{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);
+}
+#shopnames{
+    text-align: center;
+    padding-top: 120px;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+}
+#price1{
+    margin-left: 80px;
+}
+#price4{
+    margin-right: 100px;
+}
+.title{
+    background-color: rgb(241, 218, 188);
+}
+#titlename{
+    padding-top: 100px;
+    text-align: center;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 218, 188);
+    padding: 60px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    cursor: pointer;
+    padding-left: 20PX;
+    margin-top: 100PX;
+}
+.contact{
+    background-image: url(https://i.pinimg.com/736x/89/ab/2e/89ab2ea5f04a976e175e58b2ec1f9feb.jpg);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 250px;
+    align-items: center;
+}
+.storedetails{
+     padding-top: 100px;
+     background-image: url(https://cdn.pixabay.com/photo/2020/03/08/15/49/coffee-4912804_1280.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     height: 1000px;
+     color: white;  
+}
+#details{
+    text-align: center;
+}
+#email{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454734_640.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    align-items: end;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    padding: 30px;
+    background-color: antiquewhite;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
