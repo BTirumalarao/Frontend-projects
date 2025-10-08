@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.launch{
+    display: flex;
+    gap: 50px;
+}
+.launch1{
+
+}
+.launchimages{
+    margin-left: 70px;
+}

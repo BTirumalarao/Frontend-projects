@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.header{
+    margin-top: 40px;
+    display: flex;
+    overflow: hidden;
+    background-color: bisque;
+}
+.headername{
+   margin-top: 30px;
+   margin-left: 30px;
+   font-size: 30px;
+}
+.headerdetails{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+ul,li{
+list-style: none;
+display: flex;
+justify-content: space-between;
+text-align: center;
+gap: 30px;
+}
+.button{
+    margin-left: 50px;
+    width: 180px;
+    height: 40px;
+    margin-top: 40px;
+}
+/* Home */
+.menudetails{
+    height: 100vh;
+}
+.menu1{
+    margin-top: 35px;
+     display: none;
+} 
+.totop{
+    position: fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+.totop #img{}
+.bar{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/22/21/41/turmeric-2879382_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button1{
+    background-color: rgb(249, 171, 25);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#foodplate{
+    animation-name: plate;
+    animation-duration: 45s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes plate {
+    form{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* servies */
+.content{
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    margin:20px ;
+    padding: 30px;
+    column-gap: 30px;
+}
+/* about  */
+.experices{
+    display: flex;
+    height: 100vh;
+}
+.exp{
+    text-align: justify;
+    align-items: right;
+    margin-left: 80px;
+}
+.pics{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    column-gap: 60px;
+   margin-left: 350px;  
+}
+.img1{
+    display: flex;
+}
+.img1:hover{
+    background-color: rgb(248, 169, 34);
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+}
+.chefs{
+    background-color: rebeccapurple;
+    flex-wrap: wrap;
+}
+.chefdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap; 
+}
+.app{
+    background-color: rgb(59, 58, 61);
+    padding: 40px;
+    color: white;
+}
+.appdetails{
+display: flex;
+justify-content: space-between;
+padding: 30px;
+}
+.det1{
+color: white;
+}
+/* foodmenu */
+.foodmenu{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
